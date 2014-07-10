@@ -19,7 +19,7 @@ def create_self_signed_cert(cert_dir, data):
 
     # create a self-signed cert
     cert = crypto.X509()
-    cert.get_subject().C = data.get("country", "IR")
+    cert.get_subject().C = data.get("country", "IE")
     cert.get_subject().ST = data.get("state", "Dublin")
     cert.get_subject().L = data.get("location", "Dublin")
     cert.get_subject().O = data.get("company", "Ultros")
