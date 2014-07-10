@@ -2,3 +2,6 @@ requests
 twisted
 gitpython==0.3.2.RC1
 bottle
+pymongo
+pyopenssl
+pyyaml

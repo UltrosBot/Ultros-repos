@@ -1,0 +1,10 @@
+ssl:
+  # These are the settings for your self-signed SSL certificate.
+  # Leave any of these out and they'll default to the values specified below.
+
+  country: ""       # Default: Ireland
+  state: ""         # Default: Dublin
+  location: ""      # Default: Dublin
+  company: ""       # Default: Ultros
+  organisation: ""  # Default: Repos
+  hostname: ""      # Default: Machine's current hostname

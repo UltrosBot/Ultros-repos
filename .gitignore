@@ -52,3 +52,21 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Configuration
+control/config/*.yml
+packages/config/*.yml
+
+# Data
+control/data
+control/data/*
+control/data/ssl
+control/data/ssl/*
+
+packages/data
+packages/data/*
+
+# Logging
+control/logs
+control/logs/*
+packages/logs
+packages/logs/*
