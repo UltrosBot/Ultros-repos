@@ -5,7 +5,7 @@ import os
 from twisted.internet import reactor
 import yaml
 
-import control.system.servers as servers
+# import control.system.servers as servers
 import control.system.ssl as ssl
 
 from control.utils.log import getLogger
