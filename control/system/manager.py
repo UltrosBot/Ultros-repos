@@ -27,7 +27,7 @@ class Manager(object):
         try:
             self.logger.info("Ensuring directories exist..")
             self.create_dirs()
-        except:
+        except Exception:
             self.logger.exception("Error while creating directories")
             return
 
@@ -39,7 +39,7 @@ class Manager(object):
         try:
             self.logger.info("Ensuring SSL cert exists..")
             self.create_ssl()
-        except:
+        except Exception:
             self.logger.exception("Error while creating SSL cert")
             return
 

@@ -316,7 +316,7 @@ def open_log(path):
     handler.setLevel(_globals["level"])
     logger.addHandler(handler)
 
-    logger.info("*** LOGFILE OPENED: %s ***" % path)
+    logger.info("*** LOGFILE OPENED: %s ***", path)
 
     logger.removeHandler(handler)
 
@@ -348,7 +348,7 @@ def close_log(path):
     handler.setLevel(_globals["level"])
     logger.addHandler(handler)
 
-    logger.info("*** LOGFILE CLOSED: %s ***\n\n" % path)
+    logger.info("*** LOGFILE CLOSED: %s ***\n\n", path)
     logger.removeHandler(handler)
 
     del handler
